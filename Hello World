@@ -19,8 +19,8 @@ The arguments we get inside the method form an array of strings.
 
     System.out.println("Hello, World!");
 
-out represents the output of your program (stdout).
-println is used to print a line.
+`out` represents the output of your program (stdout).
+`println` is used to print a line.
 
 Exercise
 --------
