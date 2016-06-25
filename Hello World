@@ -1,0 +1,31 @@
+The Hello world program prints "Hello, World!" on the screen when the program is run.
+
+    public class Main {
+        public static void main(String[] args) {
+            System.out.println("Hello, World!");
+        }
+    }
+
+In Java, every line of code that can actually run needs to be inside a class. This line declares a class named `Main`, which is `public`, that means that any other class can access it. This is not important for now, so don't worry. For now, we'll just write our code in a class called Main, and talk about objects later on.
+
+A public class must be declared inside a file with the same name.
+
+The next line is:
+
+    public static void main(String[] args) {
+
+Void simply means that this method doesn't return any value.
+The arguments we get inside the method form an array of strings.
+
+    System.out.println("Hello, World!");
+
+out represents the output of your program (stdout).
+println is used to print a line.
+
+Exercise
+--------
+
+Print "Hello, World!" to the console.
+
+`System.out.println("Hello, World!");`
+
